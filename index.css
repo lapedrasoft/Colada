@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; /* Fondo para que destaque la tarjeta */
+}
+
+.card {
+    margin-top: 6%;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(77, 76, 76, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+
+.card-title {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.card-body p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.card-body b {
+    color: #0a0a0a;
+    font-size: 20px;
+}
+
+.container{
+    margin-bottom: 6%;
+}
